@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30A00060201BE2C200B5C981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0005F201BE2C200B5C981 /* AppDelegate.swift */; };
+		30A00062201BE2C200B5C981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A00061201BE2C200B5C981 /* ViewController.swift */; };
+		30A00065201BE2C200B5C981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A00063201BE2C200B5C981 /* Main.storyboard */; };
+		30A00068201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30A00066201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodeld */; };
+		30A0006A201BE2C200B5C981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A00069201BE2C200B5C981 /* Assets.xcassets */; };
+		30A0006D201BE2C200B5C981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A0006B201BE2C200B5C981 /* LaunchScreen.storyboard */; };
+		30A00078201BE2C200B5C981 /* BlockchainDigitalIDSVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A00077201BE2C200B5C981 /* BlockchainDigitalIDSVTests.swift */; };
+		30A00083201BE2C200B5C981 /* BlockchainDigitalIDSVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A00082201BE2C200B5C981 /* BlockchainDigitalIDSVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30A00074201BE2C200B5C981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A00054201BE2C200B5C981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A0005B201BE2C200B5C981;
+			remoteInfo = BlockchainDigitalIDSV;
+		};
+		30A0007F201BE2C200B5C981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A00054201BE2C200B5C981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A0005B201BE2C200B5C981;
+			remoteInfo = BlockchainDigitalIDSV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30A0005C201BE2C200B5C981 /* BlockchainDigitalIDSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockchainDigitalIDSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A0005F201BE2C200B5C981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30A00061201BE2C200B5C981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30A00064201BE2C200B5C981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30A00067201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlockchainDigitalIDSV.xcdatamodel; sourceTree = "<group>"; };
+		30A00069201BE2C200B5C981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30A0006C201BE2C200B5C981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30A0006E201BE2C200B5C981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A00073201BE2C200B5C981 /* BlockchainDigitalIDSVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockchainDigitalIDSVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A00077201BE2C200B5C981 /* BlockchainDigitalIDSVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainDigitalIDSVTests.swift; sourceTree = "<group>"; };
+		30A00079201BE2C200B5C981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A0007E201BE2C200B5C981 /* BlockchainDigitalIDSVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockchainDigitalIDSVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A00082201BE2C200B5C981 /* BlockchainDigitalIDSVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainDigitalIDSVUITests.swift; sourceTree = "<group>"; };
+		30A00084201BE2C200B5C981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30A00059201BE2C200B5C981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A00070201BE2C200B5C981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A0007B201BE2C200B5C981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30A00053201BE2C200B5C981 = {
+			isa = PBXGroup;
+			children = (
+				30A0005E201BE2C200B5C981 /* BlockchainDigitalIDSV */,
+				30A00076201BE2C200B5C981 /* BlockchainDigitalIDSVTests */,
+				30A00081201BE2C200B5C981 /* BlockchainDigitalIDSVUITests */,
+				30A0005D201BE2C200B5C981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30A0005D201BE2C200B5C981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30A0005C201BE2C200B5C981 /* BlockchainDigitalIDSV.app */,
+				30A00073201BE2C200B5C981 /* BlockchainDigitalIDSVTests.xctest */,
+				30A0007E201BE2C200B5C981 /* BlockchainDigitalIDSVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A0005E201BE2C200B5C981 /* BlockchainDigitalIDSV */ = {
+			isa = PBXGroup;
+			children = (
+				30A0005F201BE2C200B5C981 /* AppDelegate.swift */,
+				30A00061201BE2C200B5C981 /* ViewController.swift */,
+				30A00063201BE2C200B5C981 /* Main.storyboard */,
+				30A00069201BE2C200B5C981 /* Assets.xcassets */,
+				30A0006B201BE2C200B5C981 /* LaunchScreen.storyboard */,
+				30A0006E201BE2C200B5C981 /* Info.plist */,
+				30A00066201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodeld */,
+			);
+			path = BlockchainDigitalIDSV;
+			sourceTree = "<group>";
+		};
+		30A00076201BE2C200B5C981 /* BlockchainDigitalIDSVTests */ = {
+			isa = PBXGroup;
+			children = (
+				30A00077201BE2C200B5C981 /* BlockchainDigitalIDSVTests.swift */,
+				30A00079201BE2C200B5C981 /* Info.plist */,
+			);
+			path = BlockchainDigitalIDSVTests;
+			sourceTree = "<group>";
+		};
+		30A00081201BE2C200B5C981 /* BlockchainDigitalIDSVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30A00082201BE2C200B5C981 /* BlockchainDigitalIDSVUITests.swift */,
+				30A00084201BE2C200B5C981 /* Info.plist */,
+			);
+			path = BlockchainDigitalIDSVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30A0005B201BE2C200B5C981 /* BlockchainDigitalIDSV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A00087201BE2C200B5C981 /* Build configuration list for PBXNativeTarget "BlockchainDigitalIDSV" */;
+			buildPhases = (
+				30A00058201BE2C200B5C981 /* Sources */,
+				30A00059201BE2C200B5C981 /* Frameworks */,
+				30A0005A201BE2C200B5C981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockchainDigitalIDSV;
+			productName = BlockchainDigitalIDSV;
+			productReference = 30A0005C201BE2C200B5C981 /* BlockchainDigitalIDSV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30A00072201BE2C200B5C981 /* BlockchainDigitalIDSVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A0008A201BE2C200B5C981 /* Build configuration list for PBXNativeTarget "BlockchainDigitalIDSVTests" */;
+			buildPhases = (
+				30A0006F201BE2C200B5C981 /* Sources */,
+				30A00070201BE2C200B5C981 /* Frameworks */,
+				30A00071201BE2C200B5C981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A00075201BE2C200B5C981 /* PBXTargetDependency */,
+			);
+			name = BlockchainDigitalIDSVTests;
+			productName = BlockchainDigitalIDSVTests;
+			productReference = 30A00073201BE2C200B5C981 /* BlockchainDigitalIDSVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30A0007D201BE2C200B5C981 /* BlockchainDigitalIDSVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A0008D201BE2C200B5C981 /* Build configuration list for PBXNativeTarget "BlockchainDigitalIDSVUITests" */;
+			buildPhases = (
+				30A0007A201BE2C200B5C981 /* Sources */,
+				30A0007B201BE2C200B5C981 /* Frameworks */,
+				30A0007C201BE2C200B5C981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A00080201BE2C200B5C981 /* PBXTargetDependency */,
+			);
+			name = BlockchainDigitalIDSVUITests;
+			productName = BlockchainDigitalIDSVUITests;
+			productReference = 30A0007E201BE2C200B5C981 /* BlockchainDigitalIDSVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30A00054201BE2C200B5C981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Elaniin;
+				TargetAttributes = {
+					30A0005B201BE2C200B5C981 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					30A00072201BE2C200B5C981 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30A0005B201BE2C200B5C981;
+					};
+					30A0007D201BE2C200B5C981 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30A0005B201BE2C200B5C981;
+					};
+				};
+			};
+			buildConfigurationList = 30A00057201BE2C200B5C981 /* Build configuration list for PBXProject "BlockchainDigitalIDSV" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30A00053201BE2C200B5C981;
+			productRefGroup = 30A0005D201BE2C200B5C981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30A0005B201BE2C200B5C981 /* BlockchainDigitalIDSV */,
+				30A00072201BE2C200B5C981 /* BlockchainDigitalIDSVTests */,
+				30A0007D201BE2C200B5C981 /* BlockchainDigitalIDSVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30A0005A201BE2C200B5C981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A0006D201BE2C200B5C981 /* LaunchScreen.storyboard in Resources */,
+				30A0006A201BE2C200B5C981 /* Assets.xcassets in Resources */,
+				30A00065201BE2C200B5C981 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A00071201BE2C200B5C981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A0007C201BE2C200B5C981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30A00058201BE2C200B5C981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A00062201BE2C200B5C981 /* ViewController.swift in Sources */,
+				30A00068201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodeld in Sources */,
+				30A00060201BE2C200B5C981 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A0006F201BE2C200B5C981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A00078201BE2C200B5C981 /* BlockchainDigitalIDSVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A0007A201BE2C200B5C981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A00083201BE2C200B5C981 /* BlockchainDigitalIDSVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30A00075201BE2C200B5C981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A0005B201BE2C200B5C981 /* BlockchainDigitalIDSV */;
+			targetProxy = 30A00074201BE2C200B5C981 /* PBXContainerItemProxy */;
+		};
+		30A00080201BE2C200B5C981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A0005B201BE2C200B5C981 /* BlockchainDigitalIDSV */;
+			targetProxy = 30A0007F201BE2C200B5C981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30A00063201BE2C200B5C981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A00064201BE2C200B5C981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30A0006B201BE2C200B5C981 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A0006C201BE2C200B5C981 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30A00085201BE2C200B5C981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30A00086201BE2C200B5C981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30A00088201BE2C200B5C981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				INFOPLIST_FILE = BlockchainDigitalIDSV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elaniin.ios.BlockchainDigitalIDSV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30A00089201BE2C200B5C981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				INFOPLIST_FILE = BlockchainDigitalIDSV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elaniin.ios.BlockchainDigitalIDSV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30A0008B201BE2C200B5C981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				INFOPLIST_FILE = BlockchainDigitalIDSVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elaniin.ios.BlockchainDigitalIDSVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockchainDigitalIDSV.app/BlockchainDigitalIDSV";
+			};
+			name = Debug;
+		};
+		30A0008C201BE2C200B5C981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				INFOPLIST_FILE = BlockchainDigitalIDSVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elaniin.ios.BlockchainDigitalIDSVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockchainDigitalIDSV.app/BlockchainDigitalIDSV";
+			};
+			name = Release;
+		};
+		30A0008E201BE2C200B5C981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				INFOPLIST_FILE = BlockchainDigitalIDSVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elaniin.ios.BlockchainDigitalIDSVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockchainDigitalIDSV;
+			};
+			name = Debug;
+		};
+		30A0008F201BE2C200B5C981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				INFOPLIST_FILE = BlockchainDigitalIDSVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elaniin.ios.BlockchainDigitalIDSVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockchainDigitalIDSV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30A00057201BE2C200B5C981 /* Build configuration list for PBXProject "BlockchainDigitalIDSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A00085201BE2C200B5C981 /* Debug */,
+				30A00086201BE2C200B5C981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A00087201BE2C200B5C981 /* Build configuration list for PBXNativeTarget "BlockchainDigitalIDSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A00088201BE2C200B5C981 /* Debug */,
+				30A00089201BE2C200B5C981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A0008A201BE2C200B5C981 /* Build configuration list for PBXNativeTarget "BlockchainDigitalIDSVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A0008B201BE2C200B5C981 /* Debug */,
+				30A0008C201BE2C200B5C981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A0008D201BE2C200B5C981 /* Build configuration list for PBXNativeTarget "BlockchainDigitalIDSVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A0008E201BE2C200B5C981 /* Debug */,
+				30A0008F201BE2C200B5C981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30A00066201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30A00067201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodel */,
+			);
+			currentVersion = 30A00067201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodel */;
+			path = BlockchainDigitalIDSV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30A00054201BE2C200B5C981 /* Project object */;
+}
