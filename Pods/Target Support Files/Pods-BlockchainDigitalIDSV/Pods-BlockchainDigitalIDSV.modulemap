@@ -1,0 +1,6 @@
+framework module Pods_BlockchainDigitalIDSV {
+  umbrella header "Pods-BlockchainDigitalIDSV-umbrella.h"
+
+  export *
+  module * { export * }
+}

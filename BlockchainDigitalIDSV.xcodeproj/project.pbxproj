@@ -7,14 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30571F96201C74DA0093C58F /* GetAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30571F95201C74DA0093C58F /* GetAPIManager.swift */; };
+		30571F98201C927C0093C58F /* DataRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30571F97201C927C0093C58F /* DataRegisterViewController.swift */; };
+		30571F9B201CA6810093C58F /* DataRegister2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30571F9A201CA6810093C58F /* DataRegister2ViewController.swift */; };
+		30571F9D201CB08F0093C58F /* DataRegister3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30571F9C201CB08F0093C58F /* DataRegister3ViewController.swift */; };
+		30571F9F201CB3620093C58F /* DataRegister4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30571F9E201CB3620093C58F /* DataRegister4ViewController.swift */; };
+		30571FA1201CB9AA0093C58F /* DataRegister2p2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30571FA0201CB9AA0093C58F /* DataRegister2p2ViewController.swift */; };
+		30571FA3201CC2E20093C58F /* SignInViewControllerCheck2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30571FA2201CC2E20093C58F /* SignInViewControllerCheck2ViewController.swift */; };
+		308723C2201C2B3400ABD3EB /* RegisterClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308723C1201C2B3400ABD3EB /* RegisterClientViewController.swift */; };
+		308723C4201C2C1600ABD3EB /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308723C3201C2C1600ABD3EB /* RoundButton.swift */; };
+		308723C7201C3A1100ABD3EB /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 308723C5201C3A1000ABD3EB /* AccountKitStrings.bundle */; };
+		308723C8201C3A1100ABD3EB /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308723C6201C3A1100ABD3EB /* AccountKit.framework */; };
+		308723CA201C412000ABD3EB /* RegisterClientViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308723C9201C412000ABD3EB /* RegisterClientViewControllerExtension.swift */; };
+		308723CC201C4F7B00ABD3EB /* QRCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308723CB201C4F7B00ABD3EB /* QRCreator.swift */; };
+		308723CE201C5C0000ABD3EB /* SignInViewControllerCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308723CD201C5C0000ABD3EB /* SignInViewControllerCheckViewController.swift */; };
 		30A00060201BE2C200B5C981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0005F201BE2C200B5C981 /* AppDelegate.swift */; };
-		30A00062201BE2C200B5C981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A00061201BE2C200B5C981 /* ViewController.swift */; };
-		30A00065201BE2C200B5C981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A00063201BE2C200B5C981 /* Main.storyboard */; };
 		30A00068201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30A00066201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodeld */; };
 		30A0006A201BE2C200B5C981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A00069201BE2C200B5C981 /* Assets.xcassets */; };
 		30A0006D201BE2C200B5C981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A0006B201BE2C200B5C981 /* LaunchScreen.storyboard */; };
 		30A00078201BE2C200B5C981 /* BlockchainDigitalIDSVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A00077201BE2C200B5C981 /* BlockchainDigitalIDSVTests.swift */; };
 		30A00083201BE2C200B5C981 /* BlockchainDigitalIDSVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A00082201BE2C200B5C981 /* BlockchainDigitalIDSVUITests.swift */; };
+		30A00091201BE47000B5C981 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A00090201BE46F00B5C981 /* Core.swift */; };
+		30A00095201BE47B00B5C981 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A00094201BE47B00B5C981 /* K.swift */; };
+		30A000A5201BE4B200B5C981 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A00097201BE4B200B5C981 /* User.swift */; };
+		30A000A6201BE4B200B5C981 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A00099201BE4B200B5C981 /* Endpoints.swift */; };
+		30A000A7201BE4B200B5C981 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0009A201BE4B200B5C981 /* Exception.swift */; };
+		30A000A8201BE4B200B5C981 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0009B201BE4B200B5C981 /* Router.swift */; };
+		30A000A9201BE4B200B5C981 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0009C201BE4B200B5C981 /* Server.swift */; };
+		30A000AA201BE4B200B5C981 /* App.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A0009E201BE4B200B5C981 /* App.storyboard */; };
+		30A000AB201BE4B200B5C981 /* Session.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A000A0201BE4B200B5C981 /* Session.storyboard */; };
+		30A000AC201BE4B200B5C981 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A000A1201BE4B200B5C981 /* SignInViewController.swift */; };
+		30A000AD201BE4B200B5C981 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A000A2201BE4B200B5C981 /* SignUpViewController.swift */; };
+		30A000AE201BE4B200B5C981 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A000A4201BE4B200B5C981 /* Settings.storyboard */; };
+		30A000B1201BE6BC00B5C981 /* TouchIDAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A000B0201BE6BC00B5C981 /* TouchIDAuthentication.swift */; };
+		30A000B3201C031600B5C981 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A000B2201C031600B5C981 /* Constants.swift */; };
+		30A000B6201C063500B5C981 /* SignInOwnerViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A000B5201C063500B5C981 /* SignInOwnerViewControllerViewController.swift */; };
+		30A000BA201C0B3B00B5C981 /* ReadQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A000B9201C0B3B00B5C981 /* ReadQRViewController.swift */; };
+		30A000BE201C26B000B5C981 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A000BD201C26B000B5C981 /* AppViewController.swift */; };
+		4FA5726AEE7BEE37B73F710C /* Pods_BlockchainDigitalIDSVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1308DDEDAE1C840D4A88C6 /* Pods_BlockchainDigitalIDSVTests.framework */; };
+		853152951161C8F24B846166 /* Pods_BlockchainDigitalIDSVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37216DAE1A97FDCA960FFD60 /* Pods_BlockchainDigitalIDSVUITests.framework */; };
+		CB507F764243CC7EA6351F98 /* Pods_BlockchainDigitalIDSV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4CEF0A1F151F917424EA83 /* Pods_BlockchainDigitalIDSV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +67,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30571F95201C74DA0093C58F /* GetAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAPIManager.swift; sourceTree = "<group>"; };
+		30571F97201C927C0093C58F /* DataRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRegisterViewController.swift; sourceTree = "<group>"; };
+		30571F9A201CA6810093C58F /* DataRegister2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRegister2ViewController.swift; sourceTree = "<group>"; };
+		30571F9C201CB08F0093C58F /* DataRegister3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRegister3ViewController.swift; sourceTree = "<group>"; };
+		30571F9E201CB3620093C58F /* DataRegister4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRegister4ViewController.swift; sourceTree = "<group>"; };
+		30571FA0201CB9AA0093C58F /* DataRegister2p2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRegister2p2ViewController.swift; sourceTree = "<group>"; };
+		30571FA2201CC2E20093C58F /* SignInViewControllerCheck2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewControllerCheck2ViewController.swift; sourceTree = "<group>"; };
+		308723C1201C2B3400ABD3EB /* RegisterClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterClientViewController.swift; sourceTree = "<group>"; };
+		308723C3201C2C1600ABD3EB /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		308723C5201C3A1000ABD3EB /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		308723C6201C3A1100ABD3EB /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		308723C9201C412000ABD3EB /* RegisterClientViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterClientViewControllerExtension.swift; sourceTree = "<group>"; };
+		308723CB201C4F7B00ABD3EB /* QRCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCreator.swift; sourceTree = "<group>"; };
+		308723CD201C5C0000ABD3EB /* SignInViewControllerCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewControllerCheckViewController.swift; sourceTree = "<group>"; };
 		30A0005C201BE2C200B5C981 /* BlockchainDigitalIDSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockchainDigitalIDSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A0005F201BE2C200B5C981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30A00061201BE2C200B5C981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		30A00064201BE2C200B5C981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30A00067201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlockchainDigitalIDSV.xcdatamodel; sourceTree = "<group>"; };
 		30A00069201BE2C200B5C981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30A0006C201BE2C200B5C981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +93,32 @@
 		30A0007E201BE2C200B5C981 /* BlockchainDigitalIDSVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockchainDigitalIDSVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A00082201BE2C200B5C981 /* BlockchainDigitalIDSVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainDigitalIDSVUITests.swift; sourceTree = "<group>"; };
 		30A00084201BE2C200B5C981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A00090201BE46F00B5C981 /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		30A00094201BE47B00B5C981 /* K.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		30A00097201BE4B200B5C981 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		30A00099201BE4B200B5C981 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		30A0009A201BE4B200B5C981 /* Exception.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
+		30A0009B201BE4B200B5C981 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		30A0009C201BE4B200B5C981 /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		30A0009E201BE4B200B5C981 /* App.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = App.storyboard; sourceTree = "<group>"; };
+		30A000A0201BE4B200B5C981 /* Session.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Session.storyboard; sourceTree = "<group>"; };
+		30A000A1201BE4B200B5C981 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		30A000A2201BE4B200B5C981 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		30A000A4201BE4B200B5C981 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		30A000B0201BE6BC00B5C981 /* TouchIDAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIDAuthentication.swift; sourceTree = "<group>"; };
+		30A000B2201C031600B5C981 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30A000B5201C063500B5C981 /* SignInOwnerViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOwnerViewControllerViewController.swift; sourceTree = "<group>"; };
+		30A000B9201C0B3B00B5C981 /* ReadQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadQRViewController.swift; sourceTree = "<group>"; };
+		30A000BD201C26B000B5C981 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		37216DAE1A97FDCA960FFD60 /* Pods_BlockchainDigitalIDSVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockchainDigitalIDSVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B38DF3C3939649C26196DF /* Pods-BlockchainDigitalIDSVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockchainDigitalIDSVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockchainDigitalIDSVTests/Pods-BlockchainDigitalIDSVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D4CEF0A1F151F917424EA83 /* Pods_BlockchainDigitalIDSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockchainDigitalIDSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		957876198B9886332913F111 /* Pods-BlockchainDigitalIDSVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockchainDigitalIDSVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockchainDigitalIDSVUITests/Pods-BlockchainDigitalIDSVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B865CED4D4EBCDFCF6E7A2F0 /* Pods-BlockchainDigitalIDSVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockchainDigitalIDSVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockchainDigitalIDSVTests/Pods-BlockchainDigitalIDSVTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC3546DCE163840C376C81BE /* Pods-BlockchainDigitalIDSV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockchainDigitalIDSV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockchainDigitalIDSV/Pods-BlockchainDigitalIDSV.debug.xcconfig"; sourceTree = "<group>"; };
+		CB1308DDEDAE1C840D4A88C6 /* Pods_BlockchainDigitalIDSVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockchainDigitalIDSVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC68098E24C9EE6BB15995D /* Pods-BlockchainDigitalIDSV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockchainDigitalIDSV.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockchainDigitalIDSV/Pods-BlockchainDigitalIDSV.release.xcconfig"; sourceTree = "<group>"; };
+		E6C6698329F0E455A4F8C51C /* Pods-BlockchainDigitalIDSVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockchainDigitalIDSVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockchainDigitalIDSVUITests/Pods-BlockchainDigitalIDSVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +126,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB507F764243CC7EA6351F98 /* Pods_BlockchainDigitalIDSV.framework in Frameworks */,
+				308723C8201C3A1100ABD3EB /* AccountKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA5726AEE7BEE37B73F710C /* Pods_BlockchainDigitalIDSVTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +143,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853152951161C8F24B846166 /* Pods_BlockchainDigitalIDSVUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08163B6005378B2AB6C5440E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				308723C6201C3A1100ABD3EB /* AccountKit.framework */,
+				308723C5201C3A1000ABD3EB /* AccountKitStrings.bundle */,
+				8D4CEF0A1F151F917424EA83 /* Pods_BlockchainDigitalIDSV.framework */,
+				CB1308DDEDAE1C840D4A88C6 /* Pods_BlockchainDigitalIDSVTests.framework */,
+				37216DAE1A97FDCA960FFD60 /* Pods_BlockchainDigitalIDSVUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30571F99201C9E8B0093C58F /* DataRegister */ = {
+			isa = PBXGroup;
+			children = (
+				30571F97201C927C0093C58F /* DataRegisterViewController.swift */,
+				30571F9A201CA6810093C58F /* DataRegister2ViewController.swift */,
+				30571F9C201CB08F0093C58F /* DataRegister3ViewController.swift */,
+				30571F9E201CB3620093C58F /* DataRegister4ViewController.swift */,
+				30571FA0201CB9AA0093C58F /* DataRegister2p2ViewController.swift */,
+			);
+			path = DataRegister;
+			sourceTree = "<group>";
+		};
+		308723C0201C2A3F00ABD3EB /* RegisterClient */ = {
+			isa = PBXGroup;
+			children = (
+				308723C1201C2B3400ABD3EB /* RegisterClientViewController.swift */,
+				308723C9201C412000ABD3EB /* RegisterClientViewControllerExtension.swift */,
+			);
+			path = RegisterClient;
+			sourceTree = "<group>";
+		};
 		30A00053201BE2C200B5C981 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +190,8 @@
 				30A00076201BE2C200B5C981 /* BlockchainDigitalIDSVTests */,
 				30A00081201BE2C200B5C981 /* BlockchainDigitalIDSVUITests */,
 				30A0005D201BE2C200B5C981 /* Products */,
+				488F80648A23ECF5472E1146 /* Pods */,
+				08163B6005378B2AB6C5440E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +209,15 @@
 			isa = PBXGroup;
 			children = (
 				30A0005F201BE2C200B5C981 /* AppDelegate.swift */,
-				30A00061201BE2C200B5C981 /* ViewController.swift */,
-				30A00063201BE2C200B5C981 /* Main.storyboard */,
 				30A00069201BE2C200B5C981 /* Assets.xcassets */,
-				30A0006B201BE2C200B5C981 /* LaunchScreen.storyboard */,
 				30A0006E201BE2C200B5C981 /* Info.plist */,
 				30A00066201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodeld */,
+				30A0006B201BE2C200B5C981 /* LaunchScreen.storyboard */,
+				30A00090201BE46F00B5C981 /* Core.swift */,
+				30A00096201BE4B200B5C981 /* Models */,
+				30A0009D201BE4B200B5C981 /* Modules */,
+				30A00098201BE4B200B5C981 /* Networking */,
+				30A00092201BE47B00B5C981 /* Helpers */,
 			);
 			path = BlockchainDigitalIDSV;
 			sourceTree = "<group>";
@@ -128,6 +240,118 @@
 			path = BlockchainDigitalIDSVUITests;
 			sourceTree = "<group>";
 		};
+		30A00092201BE47B00B5C981 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				30A00093201BE47B00B5C981 /* Util */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		30A00093201BE47B00B5C981 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				308723C3201C2C1600ABD3EB /* RoundButton.swift */,
+				30A00094201BE47B00B5C981 /* K.swift */,
+				30A000B2201C031600B5C981 /* Constants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		30A00096201BE4B200B5C981 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30A00097201BE4B200B5C981 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30A00098201BE4B200B5C981 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				30571F95201C74DA0093C58F /* GetAPIManager.swift */,
+				30A00099201BE4B200B5C981 /* Endpoints.swift */,
+				30A0009A201BE4B200B5C981 /* Exception.swift */,
+				30A0009B201BE4B200B5C981 /* Router.swift */,
+				30A0009C201BE4B200B5C981 /* Server.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		30A0009D201BE4B200B5C981 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				30A0009E201BE4B200B5C981 /* App.storyboard */,
+				30A0009F201BE4B200B5C981 /* Session */,
+				30A000A3201BE4B200B5C981 /* Settings */,
+				30A000BD201C26B000B5C981 /* AppViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		30A0009F201BE4B200B5C981 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				30571F99201C9E8B0093C58F /* DataRegister */,
+				30A000B7201C0B0A00B5C981 /* QR Validation */,
+				30A000AF201BE60800B5C981 /* FIngerPrint */,
+				30A000A0201BE4B200B5C981 /* Session.storyboard */,
+				30A000A2201BE4B200B5C981 /* SignUpViewController.swift */,
+				308723CD201C5C0000ABD3EB /* SignInViewControllerCheckViewController.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		30A000A3201BE4B200B5C981 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				30A000A4201BE4B200B5C981 /* Settings.storyboard */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		30A000AF201BE60800B5C981 /* FIngerPrint */ = {
+			isa = PBXGroup;
+			children = (
+				308723C0201C2A3F00ABD3EB /* RegisterClient */,
+				30A000B4201C05DB00B5C981 /* Signin */,
+				30A000B0201BE6BC00B5C981 /* TouchIDAuthentication.swift */,
+			);
+			path = FIngerPrint;
+			sourceTree = "<group>";
+		};
+		30A000B4201C05DB00B5C981 /* Signin */ = {
+			isa = PBXGroup;
+			children = (
+				30A000A1201BE4B200B5C981 /* SignInViewController.swift */,
+				30A000B5201C063500B5C981 /* SignInOwnerViewControllerViewController.swift */,
+				30571FA2201CC2E20093C58F /* SignInViewControllerCheck2ViewController.swift */,
+			);
+			path = Signin;
+			sourceTree = "<group>";
+		};
+		30A000B7201C0B0A00B5C981 /* QR Validation */ = {
+			isa = PBXGroup;
+			children = (
+				30A000B9201C0B3B00B5C981 /* ReadQRViewController.swift */,
+				308723CB201C4F7B00ABD3EB /* QRCreator.swift */,
+			);
+			path = "QR Validation";
+			sourceTree = "<group>";
+		};
+		488F80648A23ECF5472E1146 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC3546DCE163840C376C81BE /* Pods-BlockchainDigitalIDSV.debug.xcconfig */,
+				DDC68098E24C9EE6BB15995D /* Pods-BlockchainDigitalIDSV.release.xcconfig */,
+				75B38DF3C3939649C26196DF /* Pods-BlockchainDigitalIDSVTests.debug.xcconfig */,
+				B865CED4D4EBCDFCF6E7A2F0 /* Pods-BlockchainDigitalIDSVTests.release.xcconfig */,
+				E6C6698329F0E455A4F8C51C /* Pods-BlockchainDigitalIDSVUITests.debug.xcconfig */,
+				957876198B9886332913F111 /* Pods-BlockchainDigitalIDSVUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +359,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30A00087201BE2C200B5C981 /* Build configuration list for PBXNativeTarget "BlockchainDigitalIDSV" */;
 			buildPhases = (
+				A6A567651F4B033AF53E00B3 /* [CP] Check Pods Manifest.lock */,
 				30A00058201BE2C200B5C981 /* Sources */,
 				30A00059201BE2C200B5C981 /* Frameworks */,
 				30A0005A201BE2C200B5C981 /* Resources */,
+				BEC20477470F840174FAA06B /* [CP] Embed Pods Frameworks */,
+				E2592E5EA278687916F0AAB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +379,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30A0008A201BE2C200B5C981 /* Build configuration list for PBXNativeTarget "BlockchainDigitalIDSVTests" */;
 			buildPhases = (
+				4B1D96E71377CAB1005DD68A /* [CP] Check Pods Manifest.lock */,
 				30A0006F201BE2C200B5C981 /* Sources */,
 				30A00070201BE2C200B5C981 /* Frameworks */,
 				30A00071201BE2C200B5C981 /* Resources */,
+				8BF3D0DAB29F7B735F37A02E /* [CP] Embed Pods Frameworks */,
+				75FAA720BA612320DA70F1DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +400,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30A0008D201BE2C200B5C981 /* Build configuration list for PBXNativeTarget "BlockchainDigitalIDSVUITests" */;
 			buildPhases = (
+				3F2DDCC6AD27FF20B53E09CC /* [CP] Check Pods Manifest.lock */,
 				30A0007A201BE2C200B5C981 /* Sources */,
 				30A0007B201BE2C200B5C981 /* Frameworks */,
 				30A0007C201BE2C200B5C981 /* Resources */,
+				F9BB4079F30FF56546FB985A /* [CP] Embed Pods Frameworks */,
+				5DB2A5F7CDC7B93224F44281 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,8 +469,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				30A0006D201BE2C200B5C981 /* LaunchScreen.storyboard in Resources */,
+				30A000AB201BE4B200B5C981 /* Session.storyboard in Resources */,
 				30A0006A201BE2C200B5C981 /* Assets.xcassets in Resources */,
-				30A00065201BE2C200B5C981 /* Main.storyboard in Resources */,
+				308723C7201C3A1100ABD3EB /* AccountKitStrings.bundle in Resources */,
+				30A000AE201BE4B200B5C981 /* Settings.storyboard in Resources */,
+				30A000AA201BE4B200B5C981 /* App.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +493,198 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F2DDCC6AD27FF20B53E09CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockchainDigitalIDSVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B1D96E71377CAB1005DD68A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockchainDigitalIDSVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DB2A5F7CDC7B93224F44281 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockchainDigitalIDSVUITests/Pods-BlockchainDigitalIDSVUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75FAA720BA612320DA70F1DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockchainDigitalIDSVTests/Pods-BlockchainDigitalIDSVTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BF3D0DAB29F7B735F37A02E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockchainDigitalIDSVTests/Pods-BlockchainDigitalIDSVTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6A567651F4B033AF53E00B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockchainDigitalIDSV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC20477470F840174FAA06B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BlockchainDigitalIDSV/Pods-BlockchainDigitalIDSV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockchainDigitalIDSV/Pods-BlockchainDigitalIDSV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2592E5EA278687916F0AAB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockchainDigitalIDSV/Pods-BlockchainDigitalIDSV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9BB4079F30FF56546FB985A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockchainDigitalIDSVUITests/Pods-BlockchainDigitalIDSVUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30A00058201BE2C200B5C981 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A00062201BE2C200B5C981 /* ViewController.swift in Sources */,
+				308723CC201C4F7B00ABD3EB /* QRCreator.swift in Sources */,
+				30571FA1201CB9AA0093C58F /* DataRegister2p2ViewController.swift in Sources */,
+				30571F96201C74DA0093C58F /* GetAPIManager.swift in Sources */,
+				30A000AC201BE4B200B5C981 /* SignInViewController.swift in Sources */,
+				30571F98201C927C0093C58F /* DataRegisterViewController.swift in Sources */,
+				30A000A9201BE4B200B5C981 /* Server.swift in Sources */,
+				30A000B1201BE6BC00B5C981 /* TouchIDAuthentication.swift in Sources */,
+				308723CE201C5C0000ABD3EB /* SignInViewControllerCheckViewController.swift in Sources */,
+				30A000A7201BE4B200B5C981 /* Exception.swift in Sources */,
+				308723C4201C2C1600ABD3EB /* RoundButton.swift in Sources */,
+				30A00095201BE47B00B5C981 /* K.swift in Sources */,
+				30A000B6201C063500B5C981 /* SignInOwnerViewControllerViewController.swift in Sources */,
+				308723C2201C2B3400ABD3EB /* RegisterClientViewController.swift in Sources */,
+				30A000A5201BE4B200B5C981 /* User.swift in Sources */,
+				30A000AD201BE4B200B5C981 /* SignUpViewController.swift in Sources */,
+				308723CA201C412000ABD3EB /* RegisterClientViewControllerExtension.swift in Sources */,
+				30A000B3201C031600B5C981 /* Constants.swift in Sources */,
+				30571F9F201CB3620093C58F /* DataRegister4ViewController.swift in Sources */,
+				30A000A8201BE4B200B5C981 /* Router.swift in Sources */,
+				30A000BE201C26B000B5C981 /* AppViewController.swift in Sources */,
+				30A000A6201BE4B200B5C981 /* Endpoints.swift in Sources */,
+				30A000BA201C0B3B00B5C981 /* ReadQRViewController.swift in Sources */,
+				30571F9B201CA6810093C58F /* DataRegister2ViewController.swift in Sources */,
+				30571FA3201CC2E20093C58F /* SignInViewControllerCheck2ViewController.swift in Sources */,
+				30571F9D201CB08F0093C58F /* DataRegister3ViewController.swift in Sources */,
 				30A00068201BE2C200B5C981 /* BlockchainDigitalIDSV.xcdatamodeld in Sources */,
+				30A00091201BE47000B5C981 /* Core.swift in Sources */,
 				30A00060201BE2C200B5C981 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +721,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		30A00063201BE2C200B5C981 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30A00064201BE2C200B5C981 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		30A0006B201BE2C200B5C981 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,13 +841,18 @@
 		};
 		30A00088201BE2C200B5C981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3546DCE163840C376C81BE /* Pods-BlockchainDigitalIDSV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BlockchainDigitalIDSV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.elaniin.ios.BlockchainDigitalIDSV;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elaniin.ios.blockchaindigitalIdsv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,13 +861,18 @@
 		};
 		30A00089201BE2C200B5C981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC68098E24C9EE6BB15995D /* Pods-BlockchainDigitalIDSV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BlockchainDigitalIDSV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.elaniin.ios.BlockchainDigitalIDSV;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elaniin.ios.blockchaindigitalIdsv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,6 +881,7 @@
 		};
 		30A0008B201BE2C200B5C981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B38DF3C3939649C26196DF /* Pods-BlockchainDigitalIDSVTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +899,7 @@
 		};
 		30A0008C201BE2C200B5C981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B865CED4D4EBCDFCF6E7A2F0 /* Pods-BlockchainDigitalIDSVTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +917,7 @@
 		};
 		30A0008E201BE2C200B5C981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C6698329F0E455A4F8C51C /* Pods-BlockchainDigitalIDSVUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +934,7 @@
 		};
 		30A0008F201BE2C200B5C981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957876198B9886332913F111 /* Pods-BlockchainDigitalIDSVUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

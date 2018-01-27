@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kfu-yr-3af">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--App View Controller-->
+        <scene sceneID="7qL-jU-UX3">
+            <objects>
+                <viewController id="Kfu-yr-3af" customClass="AppViewController" customModule="BlockchainDigitalIDSV" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cg1-82-qyU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BlockChainDIgitalID SV" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vF9-Lw-bcq">
+                                <rect key="frame" x="37" y="231" width="246" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="e2X-El-z7N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comienza a disfrutar y conocer de los mejores promociones para ti " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBc-rx-UAr">
+                                <rect key="frame" x="37" y="288" width="246" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="FYS-9H-vrY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0q-li-54O" customClass="RoundButton" customModule="BlockchainDigitalIDSV" customModuleProvider="target">
+                                <rect key="frame" x="37" y="377" width="246" height="42"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="nfL-lH-SLv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Inicia Sesión">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="eYK-9p-7ty" kind="showDetail" action="showViewController:sender:" id="7Pu-74-kvR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqF-ft-jgd">
+                                <rect key="frame" x="85" y="427" width="219" height="23"/>
+                                <color key="backgroundColor" red="0.10980392160000001" green="0.1529411765" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="219" id="6Gi-6O-YBj"/>
+                                    <constraint firstAttribute="height" constant="23" id="Vbc-wc-XYW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="10"/>
+                                <state key="normal" title="Si no posees cuenta Registrate">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signUp:" destination="Kfu-yr-3af" eventType="touchUpInside" id="lJa-oX-M5N"/>
+                                    <segue destination="Jbw-Fo-MMi" kind="showDetail" action="showViewController:sender:" id="RNi-28-6lN"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="security" translatesAutoresizingMaskIntoConstraints="NO" id="j6g-9I-D8X">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="185"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.25882352941176467" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="yBc-rx-UAr" firstAttribute="top" secondItem="vF9-Lw-bcq" secondAttribute="bottom" constant="8" symbolic="YES" id="0OV-W2-Kqx"/>
+                            <constraint firstItem="yBc-rx-UAr" firstAttribute="trailing" secondItem="B0q-li-54O" secondAttribute="trailing" id="2HK-73-cQy"/>
+                            <constraint firstItem="vF9-Lw-bcq" firstAttribute="top" secondItem="j6g-9I-D8X" secondAttribute="bottom" constant="46" id="5hD-Zz-VF6"/>
+                            <constraint firstItem="vF9-Lw-bcq" firstAttribute="centerX" secondItem="Cg1-82-qyU" secondAttribute="centerX" id="8A7-T7-lsP"/>
+                            <constraint firstItem="j6g-9I-D8X" firstAttribute="centerX" secondItem="vF9-Lw-bcq" secondAttribute="centerX" id="9ak-Os-PIm"/>
+                            <constraint firstItem="vF9-Lw-bcq" firstAttribute="leading" secondItem="OKQ-DR-nyt" secondAttribute="leading" constant="37" id="9f7-hi-muE"/>
+                            <constraint firstItem="hqF-ft-jgd" firstAttribute="trailing" secondItem="Cg1-82-qyU" secondAttribute="trailingMargin" id="Liy-Xc-4nO"/>
+                            <constraint firstItem="vF9-Lw-bcq" firstAttribute="leading" secondItem="yBc-rx-UAr" secondAttribute="leading" id="O1k-wC-dmN"/>
+                            <constraint firstItem="yBc-rx-UAr" firstAttribute="leading" secondItem="B0q-li-54O" secondAttribute="leading" id="Ogp-JH-7h5"/>
+                            <constraint firstItem="j6g-9I-D8X" firstAttribute="leading" secondItem="Cg1-82-qyU" secondAttribute="leading" id="ROC-TC-d2f"/>
+                            <constraint firstItem="vF9-Lw-bcq" firstAttribute="centerY" secondItem="Cg1-82-qyU" secondAttribute="centerY" constant="15" id="T3n-dw-mU9"/>
+                            <constraint firstItem="hqF-ft-jgd" firstAttribute="top" secondItem="B0q-li-54O" secondAttribute="bottom" constant="8" symbolic="YES" id="YZw-5e-CAQ"/>
+                            <constraint firstItem="vF9-Lw-bcq" firstAttribute="trailing" secondItem="yBc-rx-UAr" secondAttribute="trailing" id="ciF-ye-VQd"/>
+                            <constraint firstItem="j6g-9I-D8X" firstAttribute="top" secondItem="Cg1-82-qyU" secondAttribute="top" id="hMu-L8-zFB"/>
+                            <constraint firstItem="B0q-li-54O" firstAttribute="top" secondItem="yBc-rx-UAr" secondAttribute="bottom" constant="18" id="ufC-Fj-2x0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OKQ-DR-nyt"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BGT-Eq-4LS"/>
+                    <connections>
+                        <outlet property="logoImageview" destination="j6g-9I-D8X" id="hAv-0k-UfL"/>
+                        <outlet property="openRegistrationButton" destination="hqF-ft-jgd" id="4v4-UZ-R55"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WfM-bk-WUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1603.125" y="517.5"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="cbO-gx-lkV">
+            <objects>
+                <viewControllerPlaceholder id="eYK-9p-7ty" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iD5-5l-KVF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-908" y="326"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="WdC-NM-rkf">
+            <objects>
+                <viewControllerPlaceholder id="Jbw-Fo-MMi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gcb-JB-ZcN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-908" y="501"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="security" width="512" height="512"/>
+    </resources>
+</document>
